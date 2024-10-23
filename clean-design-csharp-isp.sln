@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP", "ISP\ISP.csproj", "{7C423543-3BC5-4905-8114-7CC5A3AF0184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISP.Tests", "ISP.Tests\ISP.Tests.csproj", "{C6920D60-01CF-48E6-86D1-B8DA82BC1DA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C423543-3BC5-4905-8114-7CC5A3AF0184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C423543-3BC5-4905-8114-7CC5A3AF0184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C423543-3BC5-4905-8114-7CC5A3AF0184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C423543-3BC5-4905-8114-7CC5A3AF0184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6920D60-01CF-48E6-86D1-B8DA82BC1DA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6920D60-01CF-48E6-86D1-B8DA82BC1DA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6920D60-01CF-48E6-86D1-B8DA82BC1DA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6920D60-01CF-48E6-86D1-B8DA82BC1DA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13153AAB-F0C9-4748-924E-3B938698C9BA}
+	EndGlobalSection
+EndGlobal
