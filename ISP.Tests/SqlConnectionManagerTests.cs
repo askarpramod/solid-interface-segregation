@@ -11,7 +11,7 @@ namespace ISP.Tests
         [Test]
         public void ConnectionFails()
         {
-            var mock = new Mock<IConfigurationSettings>();
+            var mock = new Mock<IDatabaseSettings>();
             mock.Setup(m => m.SaPassword).Returns("Ep@m2017!");
             mock.Setup(m => m.SQLServerName).Returns("localhost");
             mock.Setup(m => m.SQLDatabaseName).Returns("ISP");
@@ -23,7 +23,7 @@ namespace ISP.Tests
         [Test]
         public void ConnectionSettingsAreRenderedCorrectly()
         {
-            var mock = new Mock<IConfigurationSettings>();
+            var mock = new Mock<IDatabaseSettings>();
             mock.Setup(m => m.SaPassword).Returns("Ep@m2017!");
             mock.Setup(m => m.SQLServerName).Returns("localhost");
             mock.Setup(m => m.SQLDatabaseName).Returns("ISP");

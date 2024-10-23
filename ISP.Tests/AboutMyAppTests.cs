@@ -10,7 +10,7 @@ namespace ISP.Tests
         [Test]
         public void RenderAppInfoFromSettings()
         {
-            var mock = new Mock<IConfigurationSettings>();
+            var mock = new Mock<IApplicationSettings>();
             mock.Setup(m => m.ApplicationName).Returns("ISP task");
             mock.Setup(m => m.ApplicationVersion).Returns("0.012");
             mock.Setup(m => m.AuthorName).Returns("Jane Stewart");

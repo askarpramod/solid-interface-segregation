@@ -5,20 +5,18 @@ namespace ISP
 {
     public class AboutMyApp
     {
-        private readonly IConfigurationSettings _configurationSettings;
+        private readonly IApplicationSettings _applicationSettings;
 
-        public AboutMyApp(IConfigurationSettings configurationSettings)
+        public AboutMyApp(IApplicationSettings applicationSettings)
         {
-            _configurationSettings = configurationSettings;
+            _applicationSettings = applicationSettings;
         }
 
-        public AboutMyApp()
-            : this(ConfigurationSettings.Settings)
-        { }
+        public AboutMyApp() : this(ApplicationConfiguration.Settings) { }
 
         public void Render(TextWriter writer)
         {
-            writer.Write($"{_configurationSettings?.ApplicationName} v.{_configurationSettings?.ApplicationVersion} by {_configurationSettings?.AuthorName}");
+            writer.Write($"{_applicationSettings?.ApplicationName} v.{_applicationSettings?.ApplicationVersion} by {_applicationSettings?.AuthorName}");
         }
     }
 }
